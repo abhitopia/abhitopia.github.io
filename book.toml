@@ -16,8 +16,12 @@ after = ["links"]
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "2.0.2" # do not edit: managed by `mdbook-admonish install`
+
 [output]
 
 [output.html]
-additional-css = ["./theme/pagetoc.css"]
+additional-css = ["./theme/pagetoc.css", "./theme/mdbook-admonish.css"]
 additional-js = ["./theme/pagetoc.js", "./theme/mermaid.min.js", "./theme/mermaid-init.js"]

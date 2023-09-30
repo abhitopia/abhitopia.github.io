@@ -20,4 +20,8 @@ graph TD;
 
 ### Sub heading
 
+```admonish example
+My example is the best!
+```
+
 and a regular \$ symbol.

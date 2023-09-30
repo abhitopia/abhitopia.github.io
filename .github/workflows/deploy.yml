@@ -26,7 +26,7 @@ jobs:
         cargo install mdbook-katex
         # cargo install mdbook-catppuccin
         cargo install mdbook-mermaid
-
+        cargo install mdbook-admonish
     - name: Deploy GitHub Pages
       run: |
         # This assumes your book is in the root of your repository.
