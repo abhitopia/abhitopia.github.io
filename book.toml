@@ -7,6 +7,9 @@ title = "Abhitopia Blog Test 123. And yet again!"
 
 [preprocessor]
 
+[preprocessor.katex]
+after = ["links"]
+
 [preprocessor.catppuccin]
 assets_version = "1.0.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
 
