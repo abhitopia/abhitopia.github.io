@@ -3,7 +3,7 @@ authors = ["abhitopia"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Abhitopia Blog Test 123. And yet again!"
+title = "Blog @abhitopia"
 
 [preprocessor]
 
