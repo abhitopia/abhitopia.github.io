@@ -25,3 +25,19 @@ My example is the best!
 ```
 
 and a regular \$ symbol.
+
+### Testing ASCII to SVB using svgbob
+
+```bob
+    0       3
+     *-------*      +y
+  1 /|    2 /|       ^
+   *-------* |       |
+   | |4    | |7      | ◄╮
+   | *-----|-*     ⤹ +-----> +x
+   |/      |/       / ⤴
+   *-------*       v
+  5       6      +z
+```
+
+

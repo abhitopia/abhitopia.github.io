@@ -20,6 +20,10 @@ command = "mdbook-mermaid"
 command = "mdbook-admonish"
 assets_version = "2.0.2" # do not edit: managed by `mdbook-admonish install`
 
+[preprocessor.svgbob] # all fields by default
+fill_color = "black"  #   "black"
+background = "white" #"transparent"
+
 [output]
 
 [output.html]
