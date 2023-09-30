@@ -1,0 +1,6 @@
+[book]
+authors = ["abhitopia"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Abhitopia Blog"
