@@ -10,10 +10,14 @@ title = "Abhitopia Blog Test 123. And yet again!"
 [preprocessor.katex]
 after = ["links"]
 
+# I believe following need to run only once to generate index files and css, js etc. # 
 # [preprocessor.pagetoc]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
 
 [output]
 
 [output.html]
 additional-css = ["./theme/pagetoc.css"]
-additional-js = ["./theme/pagetoc.js"]
+additional-js = ["./theme/pagetoc.js", "./theme/mermaid.min.js", "./theme/mermaid-init.js"]
