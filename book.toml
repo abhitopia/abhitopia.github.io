@@ -10,10 +10,10 @@ title = "Abhitopia Blog Test 123. And yet again!"
 [preprocessor.katex]
 after = ["links"]
 
-[preprocessor.catppuccin]
-assets_version = "1.0.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
+# [preprocessor.pagetoc]
 
 [output]
 
 [output.html]
-additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css"]
+additional-css = ["./theme/pagetoc.css"]
+additional-js = ["./theme/pagetoc.js"]
